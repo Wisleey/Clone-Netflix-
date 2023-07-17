@@ -15,33 +15,29 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+   
 </head>
 <body>
-    <div id="imagem">
-        
-    </div>
+    <div id="imagem"></div>
     <header>
         <a>
-        <img src="netflix.png" alt="" srcset="" id="logo"></a>
-        
-            <h5 id="navegar">Navegar</h5>
+            <img src="netflix.png" alt="" srcset="" id="logo">
         </a>
+        <h5 id="navegar">Navegar</h5>
         <a>
             <span id="lupa" class="material-symbols-outlined">
-            search
+                search
             </span>
         </a>
         <a>
             <span id="sino" class="material-symbols-outlined">
-            notifications
+                notifications
             </span>
         </a>
-        
-            <div id="icon">
-            </div>
-        </a>
+        <div id="buton"></div>
         <a href="assistir.html" target="_blank">
             <div id="play">
+                
                 <strong>Assistir</strong>
             </div>
         </a>
@@ -49,35 +45,54 @@
     <article>
         <strong>
             <p id="titulo">Definição <br>
-            da <br>
-            perfeição</p>
+                da <br>
+                perfeição</p>
         </strong>
         <strong>
-            <p id="subtitulo">Um filme sobre uma garota incrível <br>
-                  onde ela conhece o grande amor da sua vida 
-                 <br>vivendo assim uma grande historia passando <br>
-                 por momentos divertidos e engraçados    </p> 
+            <p id="subtitulo">"Juntos, compartilhamos alguns dos nossos momentos mais felizes. 
+                Sua presença em minha vida trouxe alegria e amor incondicional. 
+                Agradeço por cada riso, cada abraço e cada memória que construímos juntos. 
+                Você é a pessoa que preenche meu coração e minha vida com amor e felicidade. 
+                e prometo amar sempre você,
+                em todos os momentos e em todos os caminhos que trilharmos juntos. 
+                Te amo mais do que palavras podem expressar."<br>
+                
+
+         </p> 
         </strong>
-        <strong>
-            
-        </strong>
-        <ul id="tp" >
-            <li><img src="gabi8.jpg" alt=""></li>
-            <li><img src="gabi10.jpg" alt=""></li>
-            <li><img src="gabi8.jpg" alt=""></li>
-            <li><img src="gabi10.jpg" alt=""></li>
-        
-        </ul>
-    </a>
-    <strong>
-        <p id="novamente">Assistir novamente</p>
-    </strong>
-    
-        
-    
-        
-        
-        
+        <div class="container">
+            <ul id="tp">
+              <li><img src="gabi8.jpg" alt=""></li>
+              <li><img src="gabi10.jpg" alt=""></li>
+              <li><img src="gabiwis13.jpg" alt=""></li>
+              <li><img src="gabiwis1.jpg" alt=""></li>
+              <li><img src="gabiwis2.jpg" alt=""></li>
+              <li><img src="gabiwis3.jpg" alt=""></li>
+              <li><img src="gabiwis14.jpg" alt=""></li>
+              <li><img src="gabiwis4.jpg" alt=""></li>
+              <li><img src="gabiwis5.jpg" alt=""></li>
+              <li><img src="gabiwis6.jpg" alt=""></li>
+              
+              
+            </ul>
+          </div>
+          <div class="container">
+            <ul id="tp">
+              <li><img src="gabiwis4.jpg" alt=""></li>
+              <li><img src="gabiwis5.jpg" alt=""></li>
+              <li><img src="gabiwis6.jpg" alt=""></li>
+              <li><img src="gabiwis7.jpg" alt=""></li>
+              <li><img src="gabiwis8.jpg" alt=""></li>
+              <li><img src="gabiwis14.jpg" alt=""></li>
+              <li><img src="gabi10.jpg" alt=""></li>
+              <li><img src="gabi10.jpg" alt=""></li>
+              <li><img src="gabiwis13.jpg" alt=""></li>
+              <li><img src="gabiwis1.jpg" alt=""></li>
+            </ul>
+          </div>
     </article>
+    
+  
+
 </body>
 </html>
