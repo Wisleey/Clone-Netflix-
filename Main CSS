@@ -1,17 +1,16 @@
 @charset "UTF-8";
 
-    * {
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    body {
-        background-color: black;
-    }
-
-    div#assistir {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 700px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+  
+}
