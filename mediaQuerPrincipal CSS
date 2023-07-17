@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 700px) {
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h5#navegar {
+    color: rgb(247, 247, 247);
+    position: absolute;
+    bottom: 92.5%;
+    left: 18%;
+    font-size: 0.8em;
+  }
+  
+  div#imagem {
+    background-image: url(gabi3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(104, 24, 24, 0.349);
+  }
+  
+  #imagem {
+    position: relative;
+    animation: descer 5s infinite;
+  }
+  
+  @keyframes descer {
+    10% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+  }
+  
+  div#icon {
+    background-image: url(gabi10.jpg);
+    background-position: right right;
+    background-size: cover;
+    position: absolute;
+    top: 2%;
+    left: 92%;
+    width: 42px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  
+  p#titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+  }
+  
+  p#subtitulo {
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+  }
+  
+  #play {
+    display: inline-block;
+    color: rgb(49, 46, 46);
+    background-color: white;
+    width: 80px;
+    height: 25px;
+    position: absolute;
+    top: 48%; /* Ajuste a posição vertical conforme necessário */
+    left: 3%;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 0.9em;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.407);
+    line-height: 25px;
+    transition: 0.3s ease;
+  }
+  
+  #play:hover {
+    position: absolute;
+    top: 49%; /* Ajuste a posição vertical conforme necessário */
+    left: 3%;
+  }
+}
+
+/* Estilos para dispositivos com largura entre 701px e 900px */
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  
+  div#imagem {
+    background-image: url(gabi3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(104, 24, 24, 0.349);
+  }
+  
+  #imagem {
+    position: relative;
+    animation: descer 5s infinite;
+  }
+  
+  @keyframes descer {
+    10% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+  }
+  
+  div#icon {
+    background-image: url(gabi10.jpg);
+    background-position: right right;
+    background-size: cover;
+    position: absolute;
+    top: 2%;
+    left: 92%;
+    width: 42px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  
+  p#titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+  }
+  
+  p#subtitulo {
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+  }
+  
+  
+  
+}
+
+/* Estilos para dispositivos com largura acima de 900px */
+@media screen and (min-width: 901px) {
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  div#imagem {
+    background-image: url(gabi3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 990px;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(104, 24, 24, 0.349);
+  }
+  
+  #imagem {
+    position: relative;
+    animation: descer 5s infinite;
+  }
+  
+  @keyframes descer {
+    10% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+  }
+  
+  div#icon {
+    background-image: url(gabi10.jpg);
+    background-position: right right;
+    background-size: cover;
+    position: absolute;
+    top: 2%;
+    left: 92%;
+    width: 42px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  
+  p#titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.8em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 19%;
+    left: 3%;
+  }
+  
+  p#subtitulo {
+    color: rgb(255, 255, 255);
+    font-size: 1.2em; /* Ajuste o tamanho da fonte conforme necessário */
+    position: absolute;
+    top: 50%; /* Ajuste a posição vertical conforme necessário */
+    left: 50%; /* Ajuste a posição horizontal conforme necessário */
+    transform: translate(-50%, -50%); /* Centraliza o subtitulo */
+  }
+  
+ 
+  
+  
+}
